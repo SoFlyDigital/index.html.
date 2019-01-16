@@ -5,4 +5,6 @@
 </head>
 <body>
   <header>
-    <h1> Mr.Clayton's Page: A page all about me.</h1>
+    <h1> Mr.Clayton's Page: A projects list page</h1>
+    <nav>
+      <a href="index.html">Home</a>
