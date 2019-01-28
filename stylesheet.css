@@ -1,0 +1,51 @@
+h1 {
+     color: darkblue;
+     border-style: double;
+     border-width: 2px;
+     border-color: black;
+     font-weight: lighter;
+     font-size: 40px
+}
+h2 {
+     color: blue;
+     border-style: double;
+     border-width: 2px;
+     border-color: black;
+     font-style: oblique;
+}
+body {
+    background-color:lightgrey;
+}
+h3 {
+     color: red;
+     border-style: double;
+     border-width: 2px;
+     border-color: black;
+     font-style: oblique;
+ }
+ img {
+     border-style:dashed;
+     border-width:thin;
+     border-color: white;
+ }
+p   {
+     color: forestgreen;
+}
+header {
+  padding-top: 20px;
+}
+nav {
+  font-style: italic;
+  font-weight: bold;;
+  font-weight: lighter;
+}
+ul {
+  font-family: fantasy;
+  color: teal;
+}
+li {
+  font-weight: bolder;
+}
+a {
+  color: white;
+}
