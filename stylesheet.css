@@ -23,6 +23,9 @@ h3 {
      border-color: black;
      font-style: oblique;
  }
+ h4 {
+   color: teal; 
+ }
  img {
      border-style:dashed;
      border-width:thin;
