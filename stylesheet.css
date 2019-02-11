@@ -5,6 +5,7 @@ h1 {
      border-color: black;
      font-weight: lighter;
      font-size: 40px
+     font-family: Crete, Round;
 }
 h2 {
      color: blue;
@@ -24,7 +25,7 @@ h3 {
      font-style: oblique;
  }
  h4 {
-   color: teal; 
+   color: teal;
  }
  img {
      border-style:dashed;
@@ -51,4 +52,12 @@ li {
 }
 a {
   color: white;
+}
+
+.fa-android {
+  color: green;
+}
+
+.fa-angrycreative {
+  color:red;
 }
