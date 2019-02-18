@@ -31,10 +31,6 @@ h3 {
      border-style:dashed;
      border-width:thin;
      border-color: white;
-     transition-property: all;
-     transition-duration: 2s;
-     transition-timing-function: ease-in-ease-in-out;
-     transition-delay: 4s;
  }
 p   {
      color: forestgreen;
@@ -67,13 +63,33 @@ a {
 }
 
 .container {
+  transform:
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 420px;
   background-color: black;
-  transition-property: all;
-  transition-duration: 2s;
-  transition-timing-function: ease-in-ease-in-out;
-  transition-delay: 4s;
+}
+
+li {
+   display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.cool-link:: after {
+    content: '';
+    display: block;
+    width: 0;
+    background: #fff;
+    transition: width .3s
+}
+.cool-link:hover::after {
+  width: 100%
+  transition: width .3s
 }
