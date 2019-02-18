@@ -80,4 +80,7 @@ li a {
   color: #fff;
   font-weight: lighter;
   font-size: 25px;
+  transition-duration: 350ms;
+  transition-property: links
 }
+
