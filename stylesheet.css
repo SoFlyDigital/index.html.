@@ -69,3 +69,17 @@ a {
   height: 420px;
   background-color: black;
 }
+
+.box {
+  width: 300px;
+  height: 300px;
+  backgrougnd: #3DCCC7;
+  transition-duration: 1000ms;
+  transition-property: background;
+  transition-timing-function: ease-in;
+}
+
+.box:hover {
+  background: #FF6B6B;
+  transform: rotate(45deg)
+}
