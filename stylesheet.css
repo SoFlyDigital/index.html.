@@ -81,15 +81,3 @@ li a {
   font-weight: lighter;
   font-size: 25px;
 }
-
-.cool-link:: after {
-    content: '';
-    display: block;
-    width: 0;
-    background: #fff;
-    transition: width .3s
-}
-.cool-link:hover::after {
-  width: 100%
-  transition: width .3s
-}
